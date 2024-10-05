@@ -19,7 +19,7 @@ function Biography() {
         initial={{opacity: 0, x: -100}}
         transition={{ duration: 0.5}}
         className="flex-1 p-4">
-          <h1 className="text-[#38b6ff] font-syne font-bold text-6xl">
+          <h1 className="text-[#38b6ff] font-syne font-bold sm:text-6xl text-4xl">
             My mission is to make design easier...
           </h1>
 

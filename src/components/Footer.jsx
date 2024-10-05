@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='mt-6'>
             <p className='text-[#38b6ff] mb-6 text-2xl text-center'>Get in Touch</p>
 
-            <h2 className='font-syne text-white text-4xl text-center'>felman.int@gmail.com</h2>
+            <h2 className='font-syne text-white text-2xl text-center'>felman.int@gmail.com</h2>
         </div>
 
         <div className='flex text-white flex-wrap flex-col gap-4 sm:flex-row sm:justify-between items-center pb-10 border-b-2 border-neutral-700 mt-14'>

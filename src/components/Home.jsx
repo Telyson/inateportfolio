@@ -36,7 +36,7 @@ const Home = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className="font-semibold bg-[#38b6ff] mb-10 px-8 py-3 text-black rounded-full">
+                        className="font-semibold bg-[#38b6ff] mb-10 px-6 py-2 text-black rounded-full">
                             Discover More About Me
                         </motion.button>
                 </div>
