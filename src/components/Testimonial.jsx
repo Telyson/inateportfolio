@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 const Testimonial = () => {
   return (
-    <section id='testimonial' className='pb-10 border-b-2 border-neutral-700 mt-14'>
+    <section id='testimonial' className='pb-10 max-container border-b-2 border-neutral-700 mt-14'>
 
         <div className="flex text-white justify-center items-center gap-20">
             <div className=''>

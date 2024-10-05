@@ -23,7 +23,7 @@ const Projects = () => {
     });
 
   return (
-    <section id='project' className='pb-10 border-b-2 border-neutral-700'>
+    <section id='project' w-full className='pb-10 px-8 w-full border-b-2 max-container  border-neutral-700'>
 
         <div>
         <h1 className='text-white text-3xl mb-8 font-syne text-center font-bold mt-16'>Selected Projects</h1>
@@ -32,11 +32,13 @@ const Projects = () => {
         <div className="grid pb-10 text-white grid-cols-1 sm:grid-cols-3 gap-20">
 
             <div>
-                <motion.img
+                {/* <motion.img
                  variants={iconVariants(2.5)}
                  initial="initial"
                  animate="animate"
-                 src={work1} alt="work1" />
+                 src={work1} alt="work1" /> */}
+
+                 <img src={work1} alt="work1" />
             </div>
 
             <div>

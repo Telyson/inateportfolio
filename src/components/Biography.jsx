@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 
 function Biography() {
   return (
-    <div id='biography' className="flex flex-col min-h-screen mt-10 pb-10 border-b-2 border-neutral-700">
+    <div id='biography' className="flex max-container flex-col min-h-screen mt-10 pb-10 border-b-2 border-neutral-700">
       
       {/* Row 1 */}
       <div className="flex flex-col sm:flex-row flex-grow">

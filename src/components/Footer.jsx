@@ -3,7 +3,7 @@ import frame5 from '../assets/Frame 5.png'
 
 const Footer = () => {
   return (
-    <section>
+    <section className='max-container'>
         <div className='mt-6'>
             <p className='text-[#38b6ff] mb-6 text-2xl text-center'>Get in Touch</p>
 

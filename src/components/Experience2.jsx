@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 
 const Experience2 = () => {
   return (
-    <section id="experience" className="pb-10 border-b-2 border-neutral-700">
+    <section id="experience" className="pb-10 max-container border-b-2 border-neutral-700">
         <div>
             <h1 className='text-white text-3xl mb-8 font-syne font-bold mt-16'>Experience</h1>
         </div>

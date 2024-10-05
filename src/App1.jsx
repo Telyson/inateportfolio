@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App1 = () => {
   return (
-    <div className='bg-slate-950  mx-auto px-4 sm:px-20'>
+    <div className='bg-slate-950  max-auto px-8 sm:px-20'>
         <Navbar />
         <Home />
         <Biography />
