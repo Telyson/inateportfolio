@@ -4,7 +4,9 @@ import bio2 from "../assets/bio2.png"
 import cavas1 from "../assets/cavas1.png"
 import figma1 from "../assets/figma1.png"
 import adobe1 from "../assets/adobe1.png"
+import photoshop from "../assets/adobe-photoshop-icon.png"
 import {motion} from 'framer-motion'
+
 
 function Biography() {
   return (
@@ -28,6 +30,7 @@ function Biography() {
               <img src={adobe1} alt="adobe1"  />
               <img src={cavas1} alt="cavas1" />
               <img src={figma1} alt="figma1" />
+              <img src={photoshop} alt="photoshop" width={50} />
             </div>
           </div>
 

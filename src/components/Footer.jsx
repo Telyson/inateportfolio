@@ -1,5 +1,8 @@
 import Subtract from '../assets/Subtract-white.png'
-import frame5 from '../assets/Frame 5.png'
+import twitter from '../assets/x-social-media-white-icon.png'
+import instagram from '../assets/instagram-white-icon.png'
+import discord from '../assets/discord-white-icon.png'
+import facebook from '../assets/facebook-app-round-white-icon.png'
 
 const Footer = () => {
   return (
@@ -19,7 +22,35 @@ const Footer = () => {
              </div>
              <div>
                  <p  className='mb-2'>+23(4)9046373440</p>
-                 <img src={frame5} alt="frame5" />
+
+                 <div className='flex justify-center items-center gap-3'>
+
+                    <div>
+                        <a href="https://www.facebook.com/inate.felix?mibextid=ZbWKwL">
+                            <img src={facebook} alt="facebook" width={20} />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://x.com/InateFelix?t=IdxBdcsvyiHbE5AOehhtlw&s=09">
+                            <img src={twitter} alt="twitter" width={20} className='font-white' />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/inatefelix?igsh=OGQ5ZDc2ODk2ZA==">
+                            <img src={instagram} alt="instagram" width={20} />
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="http://discordapp.com/users/889819218374164490">
+                            <img src={discord} alt="discord" width={20} />
+                        </a>
+                    </div>
+                 </div>
+
+                 {/* <img src={frame5} alt="frame5" /> */}
              </div>
          </div>
 

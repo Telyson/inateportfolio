@@ -37,7 +37,7 @@ const Home = () => {
                         initial="hidden"
                         animate="visible"
                         className="font-semibold bg-[#38b6ff] mb-10 px-6 py-2 text-black rounded-full">
-                            Discover More About Me
+                            <a href="#biography">Discover More About Me</a>
                         </motion.button>
                 </div>
                 </div>
