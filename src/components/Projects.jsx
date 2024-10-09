@@ -6,7 +6,8 @@ import work5 from '../assets/Works 5.png'
 import work6 from '../assets/Works 6.png'
 import work7 from '../assets/Works 7.png'
 import work8 from '../assets/Works 8.png'
-import jhuls from '../assets/JhulsCake.png'
+import jhuls from '../assets/cake111.png'
+// import jhuls1 from '../assets/cake01.png'
 import {motion} from 'framer-motion'
 
 const Projects = () => {
@@ -32,14 +33,14 @@ const Projects = () => {
 
         <div className="grid pb-10 text-white grid-cols-1 sm:grid-cols-3 gap-20">
 
-            <div>
+            <div className='w-full'>
                 <motion.img
                  variants={iconVariants(2.5)}
                  initial="initial"
                  animate="animate"
-                 src={jhuls} alt="jhuls" />
+                 src={jhuls} alt="jhuls"  />
 
-                 {/* <img src={work1} alt="work1" /> */}
+                 {/* <img src={jhuls} alt="work1" /> */}
             </div>
 
             <div>
