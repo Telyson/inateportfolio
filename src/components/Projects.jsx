@@ -8,93 +8,109 @@ import work7 from '../assets/Works 7.png'
 import work8 from '../assets/Works 8.png'
 import jhuls from '../assets/cake111.png'
 // import jhuls1 from '../assets/cake01.png'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Projects = () => {
-    const iconVariants = (duration) => ({
-        initial: { y: -10 },
-        animate: {
-            y: [10, -10],
-            transition: {
-                duration: duration,
-                ease: "linear",
-                repeat: Infinity,
-                repeatType: "reverse",
-            },
-        },
-    });
+  const iconVariants = (duration) => ({
+    initial: { y: -10 },
+    animate: {
+      y: [10, -10],
+      transition: {
+        duration: duration,
+        ease: 'linear',
+        repeat: Infinity,
+        repeatType: 'reverse',
+      },
+    },
+  })
 
   return (
-    <section id='project' w-full className='pb-10 px-8 w-full border-b-2 max-container  border-neutral-700'>
+    <section
+      id='project'
+      w-full
+      className='pb-10 px-8 w-full border-b-2 max-container  border-neutral-700'
+    >
+      <div>
+        <h1 className='text-white text-3xl mb-8 font-syne text-center font-bold mt-16'>
+          Design Projects
+        </h1>
+      </div>
+
+      <div className='grid pb-10 text-white grid-cols-1 sm:grid-cols-3 gap-20'>
+        <div className='w-full'>
+          <motion.img
+            variants={iconVariants(2.5)}
+            initial='initial'
+            animate='animate'
+            src={jhuls}
+            alt='jhuls'
+          />
+
+          {/* <img src={jhuls} alt="work1" /> */}
+        </div>
 
         <div>
-        <h1 className='text-white text-3xl mb-8 font-syne text-center font-bold mt-16'>Selected Projects</h1>
+          <motion.img
+            variants={iconVariants(3)}
+            initial='initial'
+            animate='animate'
+            src={work2}
+            alt='work2'
+          />
         </div>
 
-        <div className="grid pb-10 text-white grid-cols-1 sm:grid-cols-3 gap-20">
+        <div>
+          <motion.img
+            variants={iconVariants(3.5)}
+            initial='initial'
+            animate='animate'
+            src={work3}
+            alt='work3'
+          />
+        </div>
+      </div>
 
-            <div className='w-full'>
-                <motion.img
-                 variants={iconVariants(2.5)}
-                 initial="initial"
-                 animate="animate"
-                 src={jhuls} alt="jhuls"  />
-
-                 {/* <img src={jhuls} alt="work1" /> */}
-            </div>
-
-            <div>
-                <motion.img
-                 variants={iconVariants(3)}
-                 initial="initial"
-                 animate="animate" src={work2} alt="work2" />
-            </div>
-
-            <div>
-                <motion.img
-                 variants={iconVariants(3.5)}
-                 initial="initial"
-                 animate="animate" src={work3} alt="work3" />
-            </div>
+      <div className='grid pb-10 text-white grid-cols-1 sm:grid-cols-2 gap-20'>
+        <div>
+          <img src={work4} alt='work4' />
         </div>
 
-        
-        <div className="grid pb-10 text-white grid-cols-1 sm:grid-cols-2 gap-20">
+        <div>
+          <img src={work5} alt='work5' />
+        </div>
+      </div>
 
-            <div>
-                <img src={work4} alt="work4" />
-            </div>
-
-            <div>
-                <img src={work5} alt="work5" />
-            </div>
+      <div className='grid pb-10 text-white grid-cols-1 sm:grid-cols-3 gap-20'>
+        <div>
+          <motion.img
+            variants={iconVariants(3.5)}
+            initial='initial'
+            animate='animate'
+            src={work6}
+            alt='work6'
+          />
         </div>
 
-        
-        <div className="grid pb-10 text-white grid-cols-1 sm:grid-cols-3 gap-20">
-
-            <div>
-                <motion.img
-                 variants={iconVariants(3.5)}
-                 initial="initial"
-                 animate="animate" src={work6} alt="work6" />
-            </div>
-
-            <div>
-                <motion.img
-                 variants={iconVariants(3)}
-                 initial="initial"
-                 animate="animate" src={work7} alt="work7" />
-            </div>
-
-            <div>
-                <motion.img
-                 variants={iconVariants(2.5)}
-                 initial="initial"
-                 animate="animate" src={work8} alt="work8" />
-            </div>
+        <div>
+          <motion.img
+            variants={iconVariants(3)}
+            initial='initial'
+            animate='animate'
+            src={work7}
+            alt='work7'
+          />
         </div>
 
+        <div>
+          <motion.img
+            variants={iconVariants(2.5)}
+            initial='initial'
+            animate='animate'
+            src={work8}
+            alt='work8'
+          />
+        </div>
+      </div>
     </section>
   )
 }
